@@ -24,7 +24,6 @@
 #![allow(clippy::useless_conversion)]
 
 mod amount_validation;
-mod amount_validation;
 mod approvals;
 mod create_contract;
 mod deposit;
@@ -36,7 +35,6 @@ mod ttl;
 mod types;
 mod utils;
 
-pub use amount_validation::safe_add_amounts;
 pub use amount_validation::{safe_add_amounts, safe_subtract_amounts};
 pub use dispute::DisputeResolution;
 pub use migration::PendingClientMigration;
